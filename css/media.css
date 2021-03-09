@@ -3,9 +3,9 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .table_pl {
-       padding-left: 0;
-   }
-   .header-contact__value {
+     padding-left: 0;
+ }
+ .header-contact__value {
     font-size: 17px;
 }
 .slider-billbord .slick-arrow {
@@ -15,8 +15,8 @@
     font-size: 22px;
 }
 .item-solition {
-   padding-top: 50px;
-   padding-bottom: 30px;
+ padding-top: 50px;
+ padding-bottom: 30px;
 }
 .item-team__name {
     font-size: 21px;
@@ -29,12 +29,12 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     .hidden_tablet {
-       display: none;
-   }
-   .header .logo-descr {
-       display: none;
-   }
-   .menu li a {
+     display: none;
+ }
+ .header .logo-descr {
+     display: none;
+ }
+ .menu li a {
     height: 59px;
     font-size: 13px;
 }
@@ -120,9 +120,9 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .nav {
-       display: none;
-   }
-   .title-section {
+     display: none;
+ }
+ .title-section {
     font-size: 30px;
 }
 .descr-title {
@@ -193,52 +193,57 @@
     height: 50px;
 }
 .header__right {
-   text-align: right;
+ text-align: right;
 }
 .logo img {
-   width: 95px;
+ width: 95px;
 }
 .btn_nav {
-   margin-left: 15px;
-   display: inline-block;
+ margin-left: 15px;
+ display: inline-block;
 }
 .nav {
-   position: absolute;
-   top: 100%;
-   left: 0;
-   width: 100%;
-   overflow: auto;
-   padding-bottom: 100px;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ width: 100%;
+ overflow: auto;
+ padding-bottom: 100px;
+ background-color: #fff;
 }
 .menu {
-   display: block;
+ display: block;
 }
 .menu li a {
-   border: none;
-   text-align: left;
-   justify-content: flex-start;
-   border-right: none !important;
-   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    height: 52px;
+    font-size: 14px;
+ border: none;
+ text-align: left;
+ color: #3b4658;
+ justify-content: flex-start;
+ border-right: none !important;
+ border-bottom: 1px solid #3b4658;
 }
 .nav__mob {
-   display: block;
-   color: #fff;
+ display: block;
+ color: #3b4658;
 }
 .nav__mob .header-contact a,
 .nav__mob p a {
-   color: #fff;
+   color: #3b4658;
 }
 .nav__mob .header-contact a {
-   border-color: #fff;
+ border-color: #3b4658;
 }
 .nav__mob .header-contact {
   margin-top: 15px;
 }
 .wrapper {
-   padding-top: 75px;
+ padding-top: 75px;
 }
-.nav__mob .btn-main {
-   margin-top: 15px;
+.header .nav__mob .btn-main {
+ margin-top: 15px;
+ display: inline-flex;
 }
 .news .title-wrap .title-section + .descr-title {
     margin-left: 234px;
@@ -248,7 +253,8 @@
 }
 .solition .title-wrap .title-section + .descr-title {
     margin-left: 230px;
-} 
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -262,9 +268,9 @@
         line-height: 21px;
     }
     .title-wrap .title-section + .descr-title {
-       margin-left: 0 !important;
-   }
-   .slider-billbord__image {
+     margin-left: 0 !important;
+ }
+ .slider-billbord__image {
     height: 205px;
     margin-bottom: 20px;
 }
@@ -276,8 +282,8 @@
 }
 .item-feature {
 	font-size: 14px;
-   padding: 18px 10px;
-   padding-bottom: 15px;
+ padding: 18px 10px;
+ padding-bottom: 15px;
 }
 .slider-billbord__buttons .btn-main {
 	margin: 0 5px;
@@ -392,7 +398,7 @@ body {
     display: none;
 }
 .footer__row > div {
-        -webkit-box-flex: 0;
+    -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
@@ -401,7 +407,7 @@ body {
     display: flex;
 }
 .title-footer {
-    padding: 15px 10px;
+    padding: 15px 0px;
     margin: 0;
     border-bottom: 1px solid #fff;
     display: flex;
@@ -441,18 +447,18 @@ body {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-.footer-content {
-    display: block !important;
-}
+    .footer-content {
+        display: block !important;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
     .nav {
-       display: block !important;
-       height: auto !important;
-   }
-   .header.fixed  .menu li a {
+     display: block !important;
+     height: auto !important;
+ }
+ .header.fixed  .menu li a {
     height: 60px;
 }
 }

@@ -1,0 +1,475 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .table_pl {
+       padding-left: 0;
+   }
+   .header-contact__value {
+    font-size: 17px;
+}
+.slider-billbord .slick-arrow {
+    right: 475px;
+}
+.item-solition__name {
+    font-size: 22px;
+}
+.item-solition {
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+.item-team__name {
+    font-size: 21px;
+}
+.footer p {
+	font-size: 14px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .hidden_tablet {
+       display: none;
+   }
+   .header .logo-descr {
+       display: none;
+   }
+   .menu li a {
+    height: 59px;
+    font-size: 13px;
+}
+.logo img {
+    width: 110px;
+}
+.header__top {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.slider-billbord__image {
+	width: 100%;
+	height: 400px;
+	float: none;
+	margin-bottom: 40px;
+}
+.slider-billbord {
+	width: 100%;
+	padding-bottom: 90px;
+	float: none;
+}
+.slider-billbord .slick-arrow {
+	bottom: 0;
+	right: 0;
+	background-color: #fff;
+}
+.slider-billbord .slick-prev {
+	right: 65px;
+}
+.slider-billbord__item .container {
+	padding: 0;
+}
+.slider-billbord__buttons {
+	margin-top: 35px;
+}
+.item-solition {
+	min-height: 100%;
+}
+.item-team {
+	padding: 15px;
+}
+.item-team__name {
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+.item-team__image {
+    height: 180px;
+    margin-bottom: 20px;
+}
+.item-review {
+	padding: 15px;
+	margin: 0 15px;
+}
+.arrows_right {
+	margin: 0 -15px;
+}
+.item-news_big {
+    width: 475px;
+}
+.footer {
+	padding-top: 40px;
+}
+.footer__right {
+    text-align: left;
+}
+.item-news__name {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+.item-solition__name {
+    font-size: 20px;
+}
+.header__right {
+	text-align: right;
+}
+.wrapper {
+	padding-top: 143px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .nav {
+       display: none;
+   }
+   .title-section {
+    font-size: 30px;
+}
+.descr-title {
+    font-size: 16px;
+}
+.title-wrap .title-section + .descr-title {
+    margin-left: 146px;
+}
+.title-wrap_section {
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+.slider-billbord__image {
+	height: 285px;
+	margin-bottom: 30px;
+}
+.team .title-wrap .title-section + .descr-title {
+    margin-left: 245px;
+}
+.slider-team .slick-prev {
+	left: 15px;
+}
+.slider-team  .slick-next {
+	right: auto;
+	left: 81px;
+}
+.slider-team  .slick-arrow {
+	bottom: -94px;
+}
+.item-news_big .item-news__image {
+    height: 210px;
+}
+.item-news_big .item-news__content {
+	position: relative;
+	right: 0;
+}
+.item-news {
+	width: 290px;
+	margin: 0 15px;
+}
+.slider-news {
+	width: initial;
+	margin: 0 -15px;
+	margin-right: -30px;
+}
+.item-news__content {
+    padding: 23px 15px;
+    min-height: 235px;
+}
+.item-news__name {
+    font-size: 17px;
+    line-height: 24px;
+}
+.news {
+    padding-bottom: 70px;
+}
+.footer__bottom {
+	margin-top: 30px;
+	text-align: center;
+}
+.footer__bottom .row > div {
+	padding-top: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.header .btn-main {
+    width: 195px;
+    height: 50px;
+}
+.header__right {
+   text-align: right;
+}
+.logo img {
+   width: 95px;
+}
+.btn_nav {
+   margin-left: 15px;
+   display: inline-block;
+}
+.nav {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 100%;
+   overflow: auto;
+   padding-bottom: 100px;
+}
+.menu {
+   display: block;
+}
+.menu li a {
+   border: none;
+   text-align: left;
+   justify-content: flex-start;
+   border-right: none !important;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav__mob {
+   display: block;
+   color: #fff;
+}
+.nav__mob .header-contact a,
+.nav__mob p a {
+   color: #fff;
+}
+.nav__mob .header-contact a {
+   border-color: #fff;
+}
+.nav__mob .header-contact {
+  margin-top: 15px;
+}
+.wrapper {
+   padding-top: 75px;
+}
+.nav__mob .btn-main {
+   margin-top: 15px;
+}
+.news .title-wrap .title-section + .descr-title {
+    margin-left: 234px;
+}
+.reviews .title-wrap .title-section + .descr-title {
+    margin-left: 189px;
+}
+.solition .title-wrap .title-section + .descr-title {
+    margin-left: 230px;
+} 
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .title-section {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .descr-title {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .title-wrap .title-section + .descr-title {
+       margin-left: 0 !important;
+   }
+   .slider-billbord__image {
+    height: 205px;
+    margin-bottom: 20px;
+}
+.slider-billbord__title {
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 15px;
+    margin-bottom: 19px;
+}
+.item-feature {
+	font-size: 14px;
+   padding: 18px 10px;
+   padding-bottom: 15px;
+}
+.slider-billbord__buttons .btn-main {
+	margin: 0 5px;
+}
+.slider-billbord__buttons {
+	margin: 0 -5px;
+}
+.item-solition {
+	padding: 25px 15px;
+}
+.item-solition__name {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.item-solition p {
+	font-size: 14px;
+	line-height: 21px;
+}
+.team .title-wrap .title-section + .descr-title {
+	margin-left: 0;
+}
+.item-team {
+	margin: 0 5px;
+}
+.slider-team {
+	margin: 0 -5px;
+}
+.item-team__name {
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 7px;
+}
+body {
+	font-size: 14px;
+}
+.item-team__image {
+    height: 135px;
+    margin-bottom: 10px;
+}
+.item-team {
+	padding: 10px;
+}
+.team__bottom {
+    padding-top: 100px;
+    text-align: center;
+}
+.slider-team .slick-arrow {
+    bottom: -84px;
+}
+.slider-team .slick-arrow {
+    bottom: -84px;
+}
+.slider-team .slick-next {
+	left: 71px;
+}
+.team {
+    padding-bottom: 50px;
+}
+.item-review__name {
+    font-size: 17px;
+}
+.item-review__image {
+	margin-right: 10px;
+}
+.item-review__head {
+	margin-bottom: 15px;
+}
+.footer .row {
+	margin: 0 -5px;
+}
+.footer .row > div {
+	padding: 0 5px;
+}
+.footer-nav a, .title-footer {
+	font-size: 13px;
+	margin-bottom: 18px;
+}
+.news {
+	padding-bottom: 40px;
+}
+.footer__bottom .row > div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.header .btn-main {
+	display: none;
+}
+.phone-mob {
+	display: inline-block;
+	color: #3b4658;
+	font-size: 18px;
+	position: relative;
+	top: 3px;
+}
+.footer-list li {
+    margin-bottom: 17px;
+}
+.footer__bottom {
+    padding-top: 10px;
+}
+.lines-wrap__item {
+    left: 25%;
+}
+.lines-wrap__item:nth-child(2) {
+    left: 50%;
+}
+.lines-wrap__item:nth-child(3) {
+    left: 75%;
+}
+.lines-wrap__item:nth-child(n+4) {
+    display: none;
+}
+.footer__row > div {
+        -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.title-footer_mob {
+    display: flex;
+}
+.title-footer {
+    padding: 15px 10px;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content {
+    display: none;
+}
+.title-footer i {
+    display: inline-block;
+    transition: all 0.3s;
+}
+.title-footer.active i {
+    transform: rotate(45deg);
+}
+.footer-content {
+    padding-top: 15px;
+}
+.footer {
+    padding-top: 24px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+.footer-content {
+    display: block !important;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .nav {
+       display: block !important;
+       height: auto !important;
+   }
+   .header.fixed  .menu li a {
+    height: 60px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media (min-width: 1600px) {
+	.container {
+        max-width: 1200px;
+    }
+}

@@ -309,6 +309,11 @@
 .item-team {
 	margin: 0 5px;
 }
+.item-team,
+.item-review,
+.item-solition {
+    transform: none !important;
+}
 .slider-team {
 	margin: 0 -5px;
 }

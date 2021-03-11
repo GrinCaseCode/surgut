@@ -652,6 +652,9 @@ body {
 .item-complex__value {
     margin-left: 0;
 }
+.item-complex {
+    max-width: 297px;
+}
 }
 
 /* Custom, iPhone Retina */

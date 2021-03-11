@@ -117,6 +117,28 @@ $(".title-footer").click(function() {
 		]
 	});
 
+	$('.slider-complex').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		slidesToShow: 1,
+		focusOnSelect: true,
+		touchThreshold: 1000,
+  variableWidth: true,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				variableWidth: false,
+			}
+		}
+		]
+	});
+
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 
@@ -144,6 +166,14 @@ $(".title-footer").click(function() {
 	objectFitImages();
 
 
+});
+
+
+$(window).on('load', function(){
+
+	$('.list-docs').jScrollPane({
+         autoReinitialise: true
+    });
 });
 
 

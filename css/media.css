@@ -24,6 +24,20 @@
 .footer p {
 	font-size: 14px;
 }
+
+.billbord_complex .title-wrap .title-section + .descr-title {
+    margin-left: 245px;
+}
+.billbord_complex .slider-billbord .slick-arrow {
+    right: 1023px;
+}
+.item-doc {
+    width: 285px;
+    margin-left: 15px;
+}
+.complex-bottom__item:first-child {
+    margin-left: 0;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -115,7 +129,44 @@
 .wrapper {
 	padding-top: 143px;
 }
+
+.billbord_complex .slider-billbord__item .row > div:nth-child(2) {
+    order: -2;
 }
+.billbord_complex .slider-billbord {
+    padding-bottom: 0;
+}
+.billbord_complex .slider-billbord .slick-arrow {
+    right: 0;
+}
+.billbord_complex .slider-billbord .slick-prev {
+    right: 64px;
+}
+.item-location {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#map {
+    width: 100%;
+    height: 350px;
+}
+.complex-bottom__item {
+    margin-left: 10px;
+}
+.complex-bottom__item p {
+    margin-left: 11px;
+} 
+.video {
+    height: 400px;
+}
+.item-doc {
+    width: 364px;
+}
+.billbord_complex .slider-billbord .slick-arrow {
+    border-left: none;
+}
+} 
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -217,12 +268,12 @@
 .menu li a {
     height: 52px;
     font-size: 14px;
- border: none;
- text-align: left;
- color: #3b4658;
- justify-content: flex-start;
- border-right: none !important;
- border-bottom: 1px solid #3b4658;
+    border: none;
+    text-align: left;
+    color: #3b4658;
+    justify-content: flex-start;
+    border-right: none !important;
+    border-bottom: 1px solid #3b4658;
 }
 .nav__mob {
  display: block;
@@ -255,6 +306,132 @@
     margin-left: 230px;
 }
 
+.list-billbord {
+    font-size: 16px;
+}
+.list-billbord li {
+    margin-bottom: 15px;
+}
+.billbord_complex .title-wrap {
+    padding-bottom: 25px;
+}
+.billbord_complex .btn-main {
+    margin-top: 20px;
+}
+.location .title-wrap .title-section + .descr-title {
+    margin-left: 229px;
+}
+#map {
+    height: 300px;
+}
+.location {
+    padding-bottom: 60px;
+}
+.complex .title-wrap .title-section + .descr-title {
+    margin-left: 300px;
+}
+.slider-complex {
+    width: inherit;
+    margin: 0;
+}
+.item-complex {
+    max-width: 370px;
+    margin-top: 70px;
+    margin-bottom: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.complex-bottom {
+    display: block;
+}
+.complex-bottom__item {
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+.complex {
+    padding-bottom: 50px;
+}
+.complex-info {
+    width: 210px;
+    height: 235px;
+    padding: 15px;
+}
+.complex-info__name {
+    font-size: 14px;
+    padding-bottom: 9px;
+}
+.complex-info__price {
+    font-size: 17px;
+    line-height: 22px;
+}
+.complex-info img {
+    width: 100px;
+    margin-top: 12px;
+}
+.slider-complex .slick-arrow {
+    right: auto;
+    left: -15px;
+}
+.slider-complex .slick-prev {
+    top: -16px;
+}
+.slider-complex .slick-next {
+    bottom: -113px;
+}
+.complex-info {
+    left: 0;
+}
+.complex-aparment::after {
+    display: none;
+}
+.video {
+    height: 345px;
+}
+.video-btn__text {
+    margin-top: 15px;
+}
+.item-doc {
+    width: 225px;
+}
+.item-doc__icon {
+    width: 88px;
+    height: 115px;
+    margin-right: 10px;
+}
+.item-doc__format {
+    font-size: 23px;
+    padding-top: 17px;
+}
+.item-doc__icon::after {
+    bottom: 10px;
+    right: 10px;
+}
+.item-doc__name {
+    font-size: 14px;
+}
+.item-doc__date {
+    font-size: 12px;
+    margin-top: 15px;
+}
+.list-docs__line {
+    padding-bottom: 30px;
+}
+.documents {
+    padding-bottom: 60px;
+}
+.complex-video {
+    padding-bottom: 0;
+}
+.complex-video .title-wrap .title-section + .descr-title {
+    margin-left: 325px;
+}
+.documents .title-wrap .title-section + .descr-title {
+    margin-left: 206px;
+}
+.item-solition__name {
+    line-height: 27px;
+    margin-bottom: 10px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -434,6 +611,46 @@ body {
 }
 .footer {
     padding-top: 24px;
+}
+.billbord_complex .slider-billbord {
+    padding-bottom: 90px;
+}
+.location .title-wrap_section {
+    padding-top: 20px;
+}
+.item-location__name {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.item-location p {
+    line-height: 21px;
+}
+#map {
+    height: 270px;
+}
+.item-complex__value, .complex-aparment {
+    width: 37px;
+    height: 31px;
+}
+.slider-complex .slick-arrow {
+    right: 0;
+    top: 120%;
+    left: auto;
+}
+.complex-bottom {
+    padding-right: 70px;
+}
+.complex {
+    padding-bottom: 40px;
+}
+.list-docs {
+    margin-right: -15px;
+}
+.row_solition > div {
+    margin-bottom: 25px;
+}
+.item-complex__value {
+    margin-left: 0;
 }
 }
 

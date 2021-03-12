@@ -3,9 +3,9 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .table_pl {
-     padding-left: 0;
- }
- .header-contact__value {
+       padding-left: 0;
+   }
+   .header-contact__value {
     font-size: 17px;
 }
 .slider-billbord .slick-arrow {
@@ -15,8 +15,8 @@
     font-size: 22px;
 }
 .item-solition {
- padding-top: 50px;
- padding-bottom: 30px;
+   padding-top: 50px;
+   padding-bottom: 30px;
 }
 .item-team__name {
     font-size: 21px;
@@ -43,12 +43,12 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     .hidden_tablet {
-     display: none;
- }
- .header .logo-descr {
-     display: none;
- }
- .menu li a {
+       display: none;
+   }
+   .header .logo-descr {
+       display: none;
+   }
+   .menu li a {
     height: 59px;
     font-size: 13px;
 }
@@ -165,15 +165,58 @@
 .billbord_complex .slider-billbord .slick-arrow {
     border-left: none;
 }
+.about__image {
+    margin-bottom: 30px;
+}
+.row_about {
+    margin-top: 70px;
+}
+.about p:last-child {
+    margin-bottom: 0;
+}
+.col_pull_2,
+.col_push_2 {
+    left: 0;
+    order: -2;
+}
+.image-about img {
+    max-width: 100%;
+    height: auto;
+}
+.block-about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: auto;
+}
+.article__image {
+    margin-bottom: 30px;
+}
+.article .title-page {
+    padding-bottom: 20px;
+}
+.article {
+    padding-bottom: 40px;
+}
+.contacts .title-middle {
+    margin-top: 0;
+}
+.contacts #map {
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+}
+.contacts {
+    padding-bottom: 60px;
+}
 } 
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .nav {
-     display: none;
- }
- .title-section {
+       display: none;
+   }
+   .title-section {
     font-size: 30px;
 }
 .descr-title {
@@ -244,26 +287,26 @@
     height: 50px;
 }
 .header__right {
- text-align: right;
+   text-align: right;
 }
 .logo img {
- width: 95px;
+   width: 95px;
 }
 .btn_nav {
- margin-left: 15px;
- display: inline-block;
+   margin-left: 15px;
+   display: inline-block;
 }
 .nav {
- position: absolute;
- top: 100%;
- left: 0;
- width: 100%;
- overflow: auto;
- padding-bottom: 100px;
- background-color: #fff;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 100%;
+   overflow: auto;
+   padding-bottom: 100px;
+   background-color: #fff;
 }
 .menu {
- display: block;
+   display: block;
 }
 .menu li a {
     height: 52px;
@@ -276,25 +319,25 @@
     border-bottom: 1px solid #3b4658;
 }
 .nav__mob {
- display: block;
- color: #3b4658;
+   display: block;
+   color: #3b4658;
 }
 .nav__mob .header-contact a,
 .nav__mob p a {
-   color: #3b4658;
+ color: #3b4658;
 }
 .nav__mob .header-contact a {
- border-color: #3b4658;
+   border-color: #3b4658;
 }
 .nav__mob .header-contact {
   margin-top: 15px;
 }
 .wrapper {
- padding-top: 75px;
+   padding-top: 75px;
 }
 .header .nav__mob .btn-main {
- margin-top: 15px;
- display: inline-flex;
+   margin-top: 15px;
+   display: inline-flex;
 }
 .news .title-wrap .title-section + .descr-title {
     margin-left: 234px;
@@ -432,6 +475,45 @@
     line-height: 27px;
     margin-bottom: 10px;
 }
+.about {
+    padding-bottom: 60px;
+}
+.reviews_bottom {
+    padding-bottom: 50px;
+}
+.title-middle {
+    font-size: 19px;
+    line-height: 26px;
+}
+.row_about {
+    margin-top: 50px;
+}
+.breadcumbs {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.article .title-section {
+    padding-bottom: 20px;
+}
+.article .title-page {
+    padding-bottom: 15px;
+}
+.article__image {
+    margin-bottom: 20px;
+}
+.item-article {
+    min-height: auto;
+}
+.item-article__name,
+.title-page {
+    font-size: 21px;
+}
+.item-article__name {
+    margin-bottom: 15px;
+}
+.contacts #map {
+    height: 350px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -445,9 +527,9 @@
         line-height: 21px;
     }
     .title-wrap .title-section + .descr-title {
-     margin-left: 0 !important;
- }
- .slider-billbord__image {
+       margin-left: 0 !important;
+   }
+   .slider-billbord__image {
     height: 205px;
     margin-bottom: 20px;
 }
@@ -459,8 +541,8 @@
 }
 .item-feature {
 	font-size: 14px;
- padding: 18px 10px;
- padding-bottom: 15px;
+   padding: 18px 10px;
+   padding-bottom: 15px;
 }
 .slider-billbord__buttons .btn-main {
 	margin: 0 5px;
@@ -655,7 +737,66 @@ body {
 .item-complex {
     max-width: 297px;
 }
+.title-middle br {
+    display: none;
 }
+.title-middle {
+    font-size: 17px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.about__image {
+    margin-bottom: 20px;
+}
+.about p {
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.block-about {
+    padding: 20px 20px;
+}
+.date-article {
+    width: 67px;
+    height: 66px;
+    font-size: 11px;
+    line-height: 14px;
+    padding-left: 10px;
+}
+.date-article strong {
+    font-size: 18px;
+    line-height: 18px;
+}
+.item-article__name, .title-page {
+    font-size: 17px;
+    line-height: 23px;
+}
+.text-page ul li, .text-page p {
+    margin-bottom: 15px;
+    line-height: 22px;
+    }
+    .text-page ul {
+        padding-left: 0;
+    }
+    .text-page ul li {
+        margin-bottom: 7px;
+    }
+    .item-article {
+        padding: 20px;
+    }
+    .contact-line__content {
+    padding: 15px 13px;
+    line-height: 21px;
+}
+.contacts #map {
+    height: 300px;
+}
+.contacts .align_right {
+    text-align: center;
+}
+.contacts .btn-main {
+    margin-top: 20px;
+}
+} 
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -680,10 +821,10 @@ body {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
     .nav {
-     display: block !important;
-     height: auto !important;
- }
- .header.fixed  .menu li a {
+       display: block !important;
+       height: auto !important;
+   }
+   .header.fixed  .menu li a {
     height: 60px;
 }
 }

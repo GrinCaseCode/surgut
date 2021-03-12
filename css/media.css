@@ -208,6 +208,9 @@
 .contacts {
     padding-bottom: 60px;
 }
+.item-team::after {
+    display: none;
+}
 } 
 
 

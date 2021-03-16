@@ -293,7 +293,7 @@ p {
 	max-width: 370px;
 	position: absolute;
 	bottom: 0;
-	right: 2px;
+	right: 0px;
 }
 .item-news:hover  {
 	box-shadow: 0 0px 10px rgb(23 23 26 / 10%);
@@ -1660,5 +1660,4 @@ a.page-numbers:hover,
 .item-solition:hover .item-solition__image {
 	opacity: 1;
 }
-
 

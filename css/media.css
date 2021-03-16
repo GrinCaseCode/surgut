@@ -240,6 +240,31 @@
 .breadcumbs {
     padding-bottom: 30px;
 }
+
+.col_sidebar {
+    order: -2;
+}
+.sidebar-navigation a {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.sidebar-navigation a:before {
+    top: 14px;
+}
+
+.od_tablet {
+    order: -1;
+}
+.slider-billbord-image {
+    width: initial;
+    margin-bottom: 30px;
+}
+.slider-billbord-image__item {
+    height: 435px;
+}
+.item-solition .link-block {
+    opacity: 1;
+}
 } 
 
 
@@ -564,6 +589,15 @@
 .breadcumbs-wrap {
     margin-bottom: 23px;
     }
+    .privacy .title-page {
+        padding-bottom: 20px;
+    }
+    .privacy {
+        padding-bottom: 40px;
+    }
+    .slider-billbord-image__item {
+    height: 285px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -867,6 +901,26 @@ body {
     .breadcumbs {
         padding: 20px 0;
     }
+    .privacy p {
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+.privacy .title-page {
+    padding-top: 10px;
+    }
+    .slider-billbord-image {
+        margin-bottom: 80px;
+    }
+    .slider-billbord-image .slick-arrow {
+        bottom: -64px;
+    }
+    .slider-billbord-image .slick-next {
+        left: 64px;
+            border-right: 1px solid rgba(23, 23, 26, 0.04);
+    }
+    .slider-billbord-image__item {
+    height: 245px;
+}
 } 
 
 /* Custom, iPhone Retina */

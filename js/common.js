@@ -19,7 +19,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
   }
 
 	//плавный скролл
-	$(".navigat li a").mPageScroll2id();
+	$(".sidebar-navigation a").mPageScroll2id({
+		offset: 150
+	});
 
 
 	//кнопка sandwich
@@ -136,6 +138,18 @@ $(".title-footer").click(function() {
 			}
 		}
 		]
+	});
+
+
+$('.slider-billbord-image').slick({
+		arrows: true,
+		dots: false,
+		infinite: false,
+		slidesToShow: 1,
+		touchThreshold: 1000,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
 	});
 
 

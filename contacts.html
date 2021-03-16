@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.6" />
-	<link rel="stylesheet" href="css/media.css?ver=1.6" />
+	<link rel="stylesheet" href="css/main.css?ver=1.12" />
+	<link rel="stylesheet" href="css/media.css?ver=1.12" />
 </head>
 <body>
 
@@ -222,7 +222,7 @@
 <script src="libs/jscrollpane/jquery.jscrollpane.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.6"></script>
+<script src="js/common.js?ver=1.12"></script>
 
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script>
@@ -236,9 +236,22 @@
 			}, {
 				searchControlProvider: 'yandex#search'
 			});
+			myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+				balloonContent: '<p class="text-map">Тюменская обл., ХМАО-Югра <br>Сургут, пр. Ленина 43, оф. 1416</p>'
+			}, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'img/pin.svg',
+            hideIconOnBalloonOpen: false,
+            iconImageSize: [40, 53],
+            balloonOffset: [ 4, -53 ]
+        });
 			myMap.controls.remove('searchControl');
 			myMap.behaviors.disable('scrollZoom');
 
+			myMap.geoObjects.add(myPlacemark);
 		}
 	});
 </script> 

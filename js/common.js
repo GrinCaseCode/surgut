@@ -35,6 +35,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		
 	});
 
+	$(".direction-compass").click(function() {
+		$(".direction-compass").removeClass("active");
+		$(this).addClass("active");
+	});
+
 	$(".nav a").click(function() {
 			$(".nav").slideUp(200);
 			$(".sandwich").removeClass("active");

@@ -265,6 +265,10 @@
 .item-solition .link-block {
     opacity: 1;
 }
+.apartment-block {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
 } 
 
 
@@ -598,6 +602,40 @@
     .slider-billbord-image__item {
     height: 285px;
 }
+.apartment__header {
+    padding-bottom: 30px;
+    display: block;
+}
+.apartment__header .link-back {
+    margin-top: 15px;
+}
+.tabs-apartment li a {
+    width: 97px;
+}
+.apartment-block__image {
+    width: 330px;
+    margin-bottom: 30px;
+    }
+    .icon-apartment {
+        margin-bottom: 10px;
+    }
+    .tabs-apartment {
+        margin-bottom: 45px;
+    }
+    .apartment-block__icons {
+    top: 25px;
+    left: 10px;
+}
+.apartment-block {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.apartment__button {
+    text-align: left;
+}
+.apartment {
+    padding-bottom: 60px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -921,6 +959,27 @@ body {
     .slider-billbord-image__item {
     height: 245px;
 }
+.apartment-block {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 110px;
+}
+.apartment-block__icons {
+    display: flex;
+}
+.apartment-block__image {
+    max-width: 100%;
+}
+.icon-apartment {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.info-apartment {
+    padding: 20px 15px;
+}
+.info-apartment strong {
+    font-size: 20px;
+    }
 } 
 
 /* Custom, iPhone Retina */

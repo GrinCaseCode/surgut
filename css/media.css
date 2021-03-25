@@ -1006,6 +1006,9 @@ body {
     margin-right: -15px;
     width: initial;
 }
+.status-apartment {
+    margin-bottom: 35px;
+}
 } 
 
 /* Custom, iPhone Retina */

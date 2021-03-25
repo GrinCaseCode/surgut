@@ -30,7 +30,7 @@ body {
 	color: #17171a;
 	margin: 0;
 	position: relative;
-	background-color: #FAFBFD;
+	background-color: #f6f7fa;
 }
 button {
 	cursor: pointer;
@@ -358,7 +358,7 @@ p {
 	transition: all 0.3s;
 } 
 .header {
-	background-color: #fff;
+	background-color: #f6f7fa;
 	z-index: 1000;
 	top: 0;
 	left: 0;
@@ -905,7 +905,7 @@ p {
 	margin-left: 54px;
 	transform: translateY(-50%);
 	position: absolute;
-	background-color: #fff;
+	background-color: #F6F7FA;
 	z-index: 2;
 	opacity: 0;
 	visibility: hidden;
@@ -1891,4 +1891,191 @@ display: block;
 	counter-increment: list1;
 	content: counter(list1) ". ";
 }
- 
+
+.news .row_news > div {
+	margin-bottom: 30px;
+}
+.news__button {
+	padding-top: 0;
+}
+.status-apartment {
+	font-size: 11px;
+	font-weight: 700;
+	margin-bottom: 66px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #BAA64B;
+	letter-spacing: 0.1em;
+	display: inline-block;
+text-transform: uppercase;
+color: #BAA64B;
+}
+.align_center {
+	text-align: center;
+}
+.direction-compass {
+	width: 14px;	
+	cursor: initial;
+	text-align: center;
+}
+.direction-compass.active svg path {
+	fill: #BAA64B;
+}
+.direction-compass_b.active ~ .compass__icon {
+    transform: rotate(90deg);
+}
+.direction-compass_b {
+    right: -16px;
+    top: 11px;
+}
+.direction-compass_z {
+    left: -16px;
+    top: 11px;
+}
+.title-form {
+	font-size: 24px;
+line-height: 24px;
+font-weight:900;
+padding-bottom: 11px;
+color: #17171A;
+}
+.descr-form {
+	font-size: 16px;
+	line-height: 16px;
+	color: #17171A;
+	padding-bottom: 22px;
+opacity: 0.8;
+}
+.modal-wrap {
+	width: 400px;
+	padding: 55px 30px;
+	background-color: #fff;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.fancybox-skin {
+	padding: 0 !important;
+	box-shadow: none !important;
+	background-color: transparent !important;
+}
+.modal-block {
+	display: none;
+}
+.item-form {
+	margin-bottom: 20px;
+	position: relative;
+}
+.item-form input {
+	width: 100%;
+	height: 64px;
+	font-size: 16px;
+	 font-family: "MuseoSans";
+	 color: #17171A;
+	 padding: 0 20px;
+	background-color: #f6f7fa;
+	border: 1px solid #f6f7fa;
+	transition: all 0.3s;
+}
+.item-form__placeholder {
+	position: absolute;
+line-height: 16px;
+left: 10px;
+top: 25px;
+color: #17171A;
+opacity: 0.4;
+padding: 0 10px;
+transition: all 0.3s;
+z-index: 2;
+pointer-events: none;
+}
+.item-form input:valid + .item-form__placeholder,
+.item-form input:focus + .item-form__placeholder {
+	font-size: 12px;
+line-height: 12px;
+top: -6px;
+opacity: 1;
+background-color: #fff;
+color: #BAA64B;
+}
+.item-form input:valid,
+.item-form input:focus {
+	border: 1px solid #BAA64B;
+	background-color: #fff;
+}
+.modal-wrap .btn-main {
+	width: 100%;
+}
+.fancybox-close {
+	width: 14px;
+	height: 14px;
+	top: 30px;
+	right: 30px;
+	background-image: url(../img/close.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	transition: all 0.3s;
+	opacity: 0.2;
+}
+.fancybox-inner {
+	overflow: visible !important;
+}
+.fancybox-close:hover {
+	opacity: 1;
+}
+.checkbox {
+	margin-top: 30px;
+	text-align: left;
+	color: rgba(23, 23, 26, 0.4);
+}
+.checkbox label input {
+	position: absolute;
+	z-index: -1;
+	height: 1px !important;
+	width: 1px !important;
+	opacity: 0 !important;
+	margin: 12px 2px 0 7px !important;
+}
+.checkbox label span {
+	position: relative;
+	padding: 3px 0 0 23px;
+	display: block;
+	cursor: pointer;
+}
+.checkbox label span:before {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/check.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	transition: .2s;
+}
+.checkbox label span:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 16px;
+	height: 16px;
+		background-image: url(../img/check_active.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	opacity: 0;
+	transition: .2s;
+}
+.checkbox label input:checked + span:after {
+	opacity: 1;
+} 	
+.checkbox a {
+		color: rgba(23, 23, 26, 0.4);
+		border-bottom: 1px solid  rgba(23, 23, 26, 0.4);
+		transition: all 0.3s;
+}
+.checkbox a:hover {
+	border-color: transparent;
+}  

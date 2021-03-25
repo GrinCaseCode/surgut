@@ -35,10 +35,6 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		
 	});
 
-	$(".direction-compass").click(function() {
-		$(".direction-compass").removeClass("active");
-		$(this).addClass("active");
-	});
 
 	$(".nav a").click(function() {
 			$(".nav").slideUp(200);
@@ -139,7 +135,7 @@ $(".title-footer").click(function() {
 		{
 			breakpoint: 768,
 			settings: {
-				variableWidth: false,
+			
 			}
 		}
 		]

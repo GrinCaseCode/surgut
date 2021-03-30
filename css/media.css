@@ -1140,6 +1140,7 @@ body {
 .logo-footer-text {
     padding-top: 10px;
     padding-bottom: 15px;
+    max-width: 100%;
 }
 .article,
 .news-page,

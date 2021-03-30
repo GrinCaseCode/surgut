@@ -120,6 +120,7 @@ $(".title-footer").click(function() {
 		]
 	});
 
+/*
 	$('.slider-complex').slick({
 		arrows: true,
 		dots: false,
@@ -140,6 +141,8 @@ $(".title-footer").click(function() {
 		}
 		]
 	});
+*/
+
 
 
 $('.slider-billbord-image').slick({
